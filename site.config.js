@@ -12,6 +12,14 @@ const CONFIG = {
   },
   projects: [
     {
+      name: "고려대학교 멋쟁이사자처럼 9기",
+      href: "https://next-ku.com",
+    },
+    {
+      name: "초기 창업 팀 바카티오(Finestay) 개발 및 운영",
+      href: "https://finestays.com",
+    },
+    {
       name: "우아한테크코스 FE 6기",
       href: "https://github.com/Parkhanyoung/2024-woowa-course-FE",
     },
