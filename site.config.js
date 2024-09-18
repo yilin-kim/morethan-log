@@ -7,21 +7,26 @@ const CONFIG = {
     bio: "Live without regrets.",
     email: "phanyoung@naver.com",
     github: "Parkhanyoung",
-    linkedin: '',
     instagram: "park__hanyoung",
+    linkedin: "",
   },
-  projects: [],
+  projects: [
+    {
+      name: "우아한테크코스 FE 6기",
+      href: "https://github.com/Parkhanyoung/2024-woowa-course-FE",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "devhanyoung-log",
     description: "welcome to devhanyoung-log!",
-    scheme:  'light', // 'light' | 'dark' | 'system'
+    scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
-  since: 2024, // If leave this empty, current year will be used.
-  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  since: 2022, // If leave this empty, current year will be used.
+  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
