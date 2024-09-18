@@ -7,6 +7,7 @@ const CONFIG = {
     bio: "Live without regrets.",
     email: "phanyoung@naver.com",
     github: "Parkhanyoung",
+    linkedin: '',
     instagram: "park__hanyoung",
   },
   projects: [],
