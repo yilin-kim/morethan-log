@@ -63,6 +63,7 @@ const StyledWrapper = styled.div`
     .name {
       font-size: 0.875rem;
       line-height: 1.25rem;
+      max-width: 11rem;
     }
   }
 `
