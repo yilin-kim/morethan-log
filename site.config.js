@@ -1,14 +1,14 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Hanyoung(Ryan)",
+    name: "Irin(이린)",
     image: "/avatar.webp", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "Live without regrets.",
-    email: "phanyoung@naver.com",
-    github: "Parkhanyoung",
-    instagram: "park__hanyoung",
-    linkedin: "",
+    role: "Service Planner",
+    bio: "Value is all that matters.",
+    email: "irenek91@naver.com",
+    github: "yilin-kim",
+    instagram: "gimme_moment",
+    linkedin: "yilin-kim",
   },
   projects: [
     {
@@ -16,23 +16,19 @@ const CONFIG = {
       href: "https://next-ku.com",
     },
     {
-      name: "초기 창업 팀 바카티오(Finestay) 개발 및 운영",
-      href: "https://finestays.com",
-    },
-    {
-      name: "우아한테크코스 FE 6기",
-      href: "https://github.com/Parkhanyoung/2024-woowa-course-FE",
+      name: "초기 창업 팀 아일로(hapl) 서비스 기획",
+      href: "https://hapl.app/",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "devhanyoung-log",
-    description: "welcome to devhanyoung-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "irin-way",
+    description: "welcome to irin-way!",
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://devhanyoung-log.vercel.app",
+  link: "https://irin-way.vercel.app",
   since: 2024, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
@@ -50,7 +46,7 @@ const CONFIG = {
     },
   },
   googleSearchConsole: {
-    enable: true,
+    enable: false,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
@@ -62,7 +58,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
